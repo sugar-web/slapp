@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #2c3e50, #4a4a4a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.quest-container {
+    background: linear-gradient(180deg, #1a2a3a 0%, #0a1930 100%);
+    border: 2px solid #4a90e2;
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    max-width: 350px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(74, 144, 226, 0.3);
+}
+.quest-frame {
+    border: 2px solid #4a90e2;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+.corner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4a90e2;
+}
+.top-left { top: -2px; left: -2px; border-right: none; border-bottom: none; }
+.top-right { top: -2px; right: -2px; border-left: none; border-bottom: none; }
+.bottom-left { bottom: -2px; left: -2px; border-right: none; border-top: none; }
+.bottom-right { bottom: -2px; right: -2px; border-left: none; border-top: none; }
+.quest-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+.quest-subtitle {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #b8c7db;
+}
+.goals-title {
+    text-align: center;
+    color: #4ade80;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.goal-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.goal-item:active {
+    background-color: rgba(74, 144, 226, 0.3);
+}
+.caution {
+    color: #ef4444;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.timer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #4a90e2;
+}
