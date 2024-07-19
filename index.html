@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Solo Leveling Daily Quest</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="icon-192x192.png">
+</head>
+<body>
+    <div class="quest-container">
+        <div class="quest-frame">
+            <div class="corner top-left"></div>
+            <div class="corner top-right"></div>
+            <div class="corner bottom-left"></div>
+            <div class="corner bottom-right"></div>
+            <div class="quest-title">QUEST INFO</div>
+            <div class="quest-subtitle">DAILY QUEST - TRAIN TO BECOME<br>A FORMIDABLE COMBATANT</div>
+            <div class="goals-title">GOALS</div>
+            <div class="goal-item" data-exercise="push-ups">
+                <span>-PUSH-UPS</span>
+                <span class="count">[0/100]</span>
+            </div>
+            <div class="goal-item" data-exercise="sit-ups">
+                <span>-SIT-UPS</span>
+                <span class="count">[0/100]</span>
+            </div>
+            <div class="goal-item" data-exercise="squats">
+                <span>-SQUATS</span>
+                <span class="count">[0/100]</span>
+            </div>
+            <div class="goal-item" data-exercise="run">
+                <span>-RUN</span>
+                <span class="count">[0/10KM]</span>
+            </div>
+            <div class="caution">
+                CAUTION! - IF THE DAILY QUEST<br>
+                REMAINS INCOMPLETE, PENALTIES<br>
+                WILL BE GIVEN ACCORDINGLY.
+            </div>
+            <div class="timer">Time remaining: <span id="countdown"></span></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
